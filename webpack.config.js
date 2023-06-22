@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'production',
-  entry: './src/03-texture.js',
+  entry: './src/04-camera.js',
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
